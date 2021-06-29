@@ -1,0 +1,160 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'NanumSquare', sans-serif;}
+
+
+.head{
+    /* background: salmon; */
+    height: 130px;
+    line-height: 100px
+}
+
+.head > a{
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.head ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.head ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.head ul li a{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.head ul li a:hover{
+    color: #ddd;
+}
+
+.head ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* head */
+
+.body_all{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px soid red;
+}
+
+section{
+    width: 100%;
+    background: #eee;
+    height: 1400px;
+    margin-bottom: 100px;
+    /* margin: 0 auto; */
+}
+
+section .all .s_max .slide p{
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background: rgb(100, 40, 241);
+}
+
+.s_max{
+    height: 600px;
+    overflow-y: hidden;
+}
+
+.s_max .bxslider li img{
+    transform: translateY(-200px);
+}
+
+
+.s_max .slide h3{
+    font-size: 50px;
+    line-height: 70px;
+    z-index: 3000;
+    top: 300px;
+    left: 150px;
+    position: absolute;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.all .share{
+    position: absolute;
+    right: 200px;
+    top: 550px;
+    color: white;
+    font-weight: 500;
+    padding: 20px 50px 20px 50px;
+    background: rgb(100, 40, 241);
+    transition: all .6s;
+}
+
+.all .share{
+    cursor: pointer;
+}
+
+.all .share:hover{
+    background: white;
+    color: black;
+}
+
+
+/* section */
+
+.span{
+    display: block;
+    background: url(img/02.svg) no-repeat center center;
+    height: 200px;
+}
+
+.video{
+    text-align: center;
+}
+
+.video a{
+    transition: all .6s;
+    cursor: pointer;
+    color: white;
+    display: block;
+    width: 200px;
+    padding: 20px 0 20px 0;
+    margin: 30px auto 30px auto;
+    background: rgb(100, 40, 241)
+}
+
+.video a:hover{
+    background: white;
+    color: black
+}
+
+.video p{
+    margin: 50px auto 0 auto;
+    width: 70%;
+}
+
+.ppp{
+    background: #444;
+    color: white;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+}
